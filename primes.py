@@ -20,6 +20,6 @@ def primes(number_of_primes):
             listOfPrimes.append(number)
         number += 1
     print(listOfPrimes)
-    return list
+    return listOfPrimes
 
 
