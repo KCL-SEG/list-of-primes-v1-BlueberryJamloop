@@ -3,7 +3,7 @@
 
 import math
 def isPrime(number):
-    for x in range(1, math.ceil(sqrt(number))):
+    for x in range(1, math.ceil(math.sqrt(number))):
         if number % x == 0:
             return False
     return True
